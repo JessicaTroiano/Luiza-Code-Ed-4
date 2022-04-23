@@ -1,5 +1,13 @@
-let exemploUm = [1, 2, 3, 4, 5];
-let exemploDois = new Array ("Maria", "João", "José");
+let letras =  ["a", "b", "c"];
 
-console.log(exemploUm);
-console.log(exemploDois);
+//console.log(letras.length);
+
+//console.log(letras.pop());
+
+//console.log(letras.push("d"));
+
+//console.log(letras.shift());
+
+//console.log(letras.unshift("z"));
+
+console.log(letras);
