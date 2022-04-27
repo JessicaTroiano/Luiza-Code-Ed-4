@@ -44,8 +44,17 @@
     }
 
     deposita(valor) {
-        this.saldo += valor * 0.005; // rendimento poupança
+        this.saldo += valor;
     }
+
+
+    rendimento(juros) {
+        this.saldo = (this.saldo * juros) + this.saldo;
+    }
+
+    getRendimento() {
+        return this.saldo;
+      }
   }
   
   let jose = new ContaCorrente(321, 'Jose Jr');
@@ -59,4 +68,5 @@
   console.log('OBJETO', maria);
   maria.deposita(200);
   maria.deposita(100);
-  console.log(maria.getSaldo());
+  maria.rendimento(1);
+  console.log(maria.getRendimento());
