@@ -1,4 +1,8 @@
-
+/**
+ * Abstração - Exemplos
+ * Exercicio 1 - Exemplos de abstração no dia a dia, se quiser implementar pode.
+ */
+ 
  class LigarTv {
     constructor(sensor_tv, sensor_controle){
         this.sensor_controle = sensor_controle;
