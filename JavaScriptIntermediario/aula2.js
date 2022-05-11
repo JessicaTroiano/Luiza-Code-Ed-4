@@ -2,7 +2,7 @@
 //Exercício 1
 let valor = 3;
 
-let par = () => {
+let par = (_) => {
     if (valor %2 === 0){
         return 'o valor é par';
     }else{
