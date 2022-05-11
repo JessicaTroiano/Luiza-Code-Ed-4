@@ -26,8 +26,8 @@ let percentualGerente = (vendas) => {
 async function calculo(){
     const entrada = 1500;
     const saida = await Promise.resolve(entrada)
-        //.then(percentualVendedor)}
-        //.then(percentualSupervisor)
+        .then(percentualVendedor)
+        .then(percentualSupervisor)
         .then(percentualGerente)
 
         console.log ('>>>', saida);
